@@ -26,11 +26,9 @@ images.get('/', async (req, res) => {
 			}
 		});
 	} else {
-		res.status(400)
-			.send(
-				'Missing query parameters. Must include filename, width and height.'
-			)
-			.end();
+		res.send(
+			'Missing query parameters. Must include filename, width and height.'
+		).end();
 	}
 });
 
