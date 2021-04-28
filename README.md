@@ -1,6 +1,6 @@
 # image processing api
 
-Image processing api resizes an image stored in the filesystem.
+Image processing api resizes an image stored on the servers filesystem.
 
 ## Installation
 
